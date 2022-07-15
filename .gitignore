@@ -1,0 +1,14 @@
+*.so
+*.iml
+*.log
+.idea
+/build
+.gradle
+.DS_Store
+/captures
+androidjs-debug
+/.idea/libraries
+/local.properties
+androidjs-release
+/.idea/workspace.xml
+.externalNativeBuild
