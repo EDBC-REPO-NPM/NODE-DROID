@@ -1,4 +1,0 @@
-#Sun Oct 23 19:26:10 VET 2022
-base.0=/home/bececrazy2/NODE-DROID/app/build/intermediates/dex/debug/mergeDexDebug/out
-renamed.0=classes.dex
-path.0=classes.dex
