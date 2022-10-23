@@ -2,23 +2,17 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.1"
+    buildToolsVersion "29.0.3"
+
     defaultConfig {
         versionCode 1
-        versionName "1.0"
         minSdkVersion 19
+        versionName "1.0"
         targetSdkVersion 30
         applicationId "com.androidjs.ga"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        externalNativeBuild {
-            cmake {
-                cppFlags ""
-                arguments "-DANDROID_STL=c++_shared"
-            }
-        }
-        ndk {
-            abiFilters "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
-        }
+
+        /*
         signingConfigs {
 		    debug {
 		        storeFile file('debug.keystore')
@@ -33,31 +27,14 @@ android {
 		        keyPassword 'android'
 			}
 		}
-    }
-    buildTypes {
-        debug {
-            signingConfig signingConfigs.debug
-        }
-        release {
-            minifyEnabled false
-            signingConfig signingConfigs.release
-            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-        }
-    }
-    externalNativeBuild {
-        cmake {
-            path "CMakeLists.txt"
-        }
+        */
+
     }
 
-    // If you want Gradle to package prebuilt native libraries
-    // with your APK, modify the default source set configuration
-    // to include the directory of your prebuilt .so files as follows.
     sourceSets {
-        main {
-            jniLibs.srcDirs 'libnode/bin/'
-        }
+        main { jniLibs.srcDirs 'libnode/bin/' }
     }
+
 }
 
 dependencies {
@@ -68,7 +45,6 @@ dependencies {
     })
     
     testImplementation 'junit:junit:4.12'
-    implementation 'com.facebook.react:react-native:0.59.7'
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:2.0.2'
     

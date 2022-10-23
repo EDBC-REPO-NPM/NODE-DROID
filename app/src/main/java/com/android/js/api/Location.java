@@ -1,16 +1,17 @@
 package com.android.js.api;
 
 import android.Manifest;
+import android.os.Bundle;
 import android.app.Activity;
+import android.location.LocationManager;
 import android.content.pm.PackageManager;
 import android.location.LocationListener;
-import android.location.LocationManager;
-import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 
 import static android.content.Context.LOCATION_SERVICE;
 
 public class Location implements LocationListener {
+    
     private Activity activity;
     private LocationManager locationManager;
     private android.location.Location location;

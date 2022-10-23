@@ -1,10 +1,10 @@
 package com.android.js.api;
 
+import android.net.Uri;
 import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.net.Uri;
 import android.support.v4.app.ActivityCompat;
 
 public class Call {

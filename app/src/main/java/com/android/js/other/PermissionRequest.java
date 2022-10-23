@@ -28,79 +28,78 @@ public class PermissionRequest {
                 case "android.permission.CAMERA":
                     if (ContextCompat.checkSelfPermission(context, "Manigest") != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.CAMERA);
-                    }
-                    break;
+                    }   break;
 
                 case "android.permission.ACCESS_NETWORK_STATE":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_NETWORK_STATE) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.ACCESS_NETWORK_STATE);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.ACCESS_COARSE_LOCATION":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.ACCESS_COARSE_LOCATION);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.ACCESS_FINE_LOCATION":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.ACCESS_FINE_LOCATION);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.WRITE_EXTERNAL_STORAGE":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.READ_EXTERNAL_STORAGE":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.READ_EXTERNAL_STORAGE);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.RECORD_AUDIO":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.RECORD_AUDIO);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.MODIFY_AUDIO_SETTINGS":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.MODIFY_AUDIO_SETTINGS) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.MODIFY_AUDIO_SETTINGS);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.CALL_PHONE":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.CALL_PHONE);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.ACCESS_WIFI_STATE":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_WIFI_STATE) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.ACCESS_WIFI_STATE);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.CHANGE_WIFI_STATE":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.CHANGE_WIFI_STATE) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.CHANGE_WIFI_STATE);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.WRITE_SETTINGS":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_SETTINGS) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.WRITE_SETTINGS);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.READ_CONTACTS":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.READ_CONTACTS);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.WRITE_CONTACTS":
                     if (ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.WRITE_CONTACTS);
-                    }
-                    break;
+                    }   break;
+
                 case "android.permission.SEND_SMS":
                     if(ContextCompat.checkSelfPermission(context, Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {
                         permissionsToBeGranted.add(Manifest.permission.SEND_SMS);
-                    }
-                    break;
+                    }   break;
+
             }
         }
         String[] permissions = new String[permissionsToBeGranted.size()];

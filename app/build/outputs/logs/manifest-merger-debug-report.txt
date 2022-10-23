@@ -1,0 +1,166 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:2:1-45:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.2] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/c67d6e255d8df9d135ea0bb66b5d0e44/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/aa377ba953a4c2233acb31a31eec69ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/2c8addc9e71b1af0236c6cd74d20cbd1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/c898e38b579e54e28a4361f6479cd4da/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/c54fa070c8b4de691acb16e778bdb0c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/37309a48d0f7e7ceea21e27c53650470/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/6eedffcc815950da2e1e3e77379eb134/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/2e701214d3dd03e5720763e107c81983/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/cebc34e4e7f7e2ef80747e66d8229ea0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/877b510b6ed2e8dde45fa366768d75af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3104a5a7336bc736ab973859471d591f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/6c3c0524886544f4e583f2bb3e4c6696/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/b791f1817b6a326822d2489f6923004f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/46a1d5fd740b04c9db9f854cc2b497ad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/d540a7bf24484a2a67da32e333593e9b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3a256b09b1e52c36c3c7968c1b97afbf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/f827f4d68d9796d8ba3bcc47f335cc47/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/4de03617f5da34adb5b01fe1c1e6a0f3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/fe5be10a3ddb1025a5aeab40189afe6a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/80e889723bd4d3246317569c7bdd411e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/429202bb5bd024f857e4e536eb9615ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/d3f34f1d03bb8676ae9e43976453bc9b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3d946f578b5a18eebdc11eb7640e9fff/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/cefd3bcc2ec13883e542fd0715b1d97d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/1bd17b18d5bc7e0dbd0107fbedc185eb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/344c58d53e2d99b5e3715a7f1f70355e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/720f71b3067f4d860063b9e9e9338543/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:2:70-102
+		INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:2:1-45:12
+		INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:2:1-45:12
+		INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:23:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:24:22-64
+application
+ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:26:5-43:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.2] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/c67d6e255d8df9d135ea0bb66b5d0e44/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.2] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/c67d6e255d8df9d135ea0bb66b5d0e44/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3a256b09b1e52c36c3c7968c1b97afbf/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3a256b09b1e52c36c3c7968c1b97afbf/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/f827f4d68d9796d8ba3bcc47f335cc47/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/f827f4d68d9796d8ba3bcc47f335cc47/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3a256b09b1e52c36c3c7968c1b97afbf/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:33:9-35
+	android:label
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:30:9-41
+	android:roundIcon
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:27:9-54
+	android:icon
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:29:9-43
+	android:allowBackup
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:32:9-35
+	android:theme
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:31:9-40
+	android:usesCleartextTraffic
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:28:9-44
+activity#com.android.js.webview.MainActivity
+ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:35:9-41:20
+	android:configChanges
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:35:19-89
+	android:name
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:36:19-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:37:13-40:29
+category#android.intent.category.LAUNCHER
+ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:38:27-74
+action#android.intent.action.MAIN
+ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml:39:25-66
+uses-sdk
+INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:2.0.2] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/c67d6e255d8df9d135ea0bb66b5d0e44/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.2] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/c67d6e255d8df9d135ea0bb66b5d0e44/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/aa377ba953a4c2233acb31a31eec69ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/aa377ba953a4c2233acb31a31eec69ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/2c8addc9e71b1af0236c6cd74d20cbd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/2c8addc9e71b1af0236c6cd74d20cbd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/c898e38b579e54e28a4361f6479cd4da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/c898e38b579e54e28a4361f6479cd4da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/c54fa070c8b4de691acb16e778bdb0c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/c54fa070c8b4de691acb16e778bdb0c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/37309a48d0f7e7ceea21e27c53650470/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/37309a48d0f7e7ceea21e27c53650470/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/6eedffcc815950da2e1e3e77379eb134/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/6eedffcc815950da2e1e3e77379eb134/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/2e701214d3dd03e5720763e107c81983/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/2e701214d3dd03e5720763e107c81983/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/cebc34e4e7f7e2ef80747e66d8229ea0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/cebc34e4e7f7e2ef80747e66d8229ea0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/877b510b6ed2e8dde45fa366768d75af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/877b510b6ed2e8dde45fa366768d75af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3104a5a7336bc736ab973859471d591f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3104a5a7336bc736ab973859471d591f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/6c3c0524886544f4e583f2bb3e4c6696/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/6c3c0524886544f4e583f2bb3e4c6696/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/b791f1817b6a326822d2489f6923004f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/b791f1817b6a326822d2489f6923004f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/46a1d5fd740b04c9db9f854cc2b497ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/46a1d5fd740b04c9db9f854cc2b497ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/d540a7bf24484a2a67da32e333593e9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/d540a7bf24484a2a67da32e333593e9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3a256b09b1e52c36c3c7968c1b97afbf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3a256b09b1e52c36c3c7968c1b97afbf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/f827f4d68d9796d8ba3bcc47f335cc47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/f827f4d68d9796d8ba3bcc47f335cc47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/4de03617f5da34adb5b01fe1c1e6a0f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/4de03617f5da34adb5b01fe1c1e6a0f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/fe5be10a3ddb1025a5aeab40189afe6a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/fe5be10a3ddb1025a5aeab40189afe6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/80e889723bd4d3246317569c7bdd411e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/80e889723bd4d3246317569c7bdd411e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/429202bb5bd024f857e4e536eb9615ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/429202bb5bd024f857e4e536eb9615ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/d3f34f1d03bb8676ae9e43976453bc9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/d3f34f1d03bb8676ae9e43976453bc9b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3d946f578b5a18eebdc11eb7640e9fff/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/3d946f578b5a18eebdc11eb7640e9fff/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/cefd3bcc2ec13883e542fd0715b1d97d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/cefd3bcc2ec13883e542fd0715b1d97d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/1bd17b18d5bc7e0dbd0107fbedc185eb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/1bd17b18d5bc7e0dbd0107fbedc185eb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/344c58d53e2d99b5e3715a7f1f70355e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/344c58d53e2d99b5e3715a7f1f70355e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/720f71b3067f4d860063b9e9e9338543/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/bececrazy2/.gradle/caches/transforms-2/files-2.1/720f71b3067f4d860063b9e9e9338543/AndroidManifest.xml:20:5-44
+INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+		ADDED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bececrazy2/NODE-DROID/app/src/main/AndroidManifest.xml

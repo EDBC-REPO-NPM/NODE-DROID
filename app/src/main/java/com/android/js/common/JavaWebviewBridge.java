@@ -1,7 +1,16 @@
 package com.android.js.common;
 
+import android.view.View;
+import android.view.Window;
+import android.content.Context;
+import android.view.WindowManager;
+import android.media.AudioManager;
+import android.support.v7.app.AppCompatActivity;
+
 import android.app.Activity;
 import android.webkit.WebView;
+import android.content.pm.ActivityInfo;
+import android.telephony.TelephonyManager;
 import android.webkit.JavascriptInterface;
 
 import com.android.js.api.IO;
@@ -17,19 +26,10 @@ import com.android.js.api.Location;
 import com.android.js.api.MobileData;
 import com.android.js.api.Notification;
 
-import android.content.pm.ActivityInfo;
-import android.telephony.TelephonyManager;
-
-import android.view.View;
-import android.view.Window;
-import android.content.Context;
-import android.view.WindowManager;
-import android.media.AudioManager;
-import android.support.v7.app.AppCompatActivity;
-
 import org.json.JSONException;
 
 public class JavaWebviewBridge {
+    
     private int iconId;
     private Activity activity;
     private WebView myWebView;

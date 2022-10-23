@@ -1,9 +1,8 @@
 package com.android.js.api;
 
+import java.util.ArrayList;
 import android.app.Activity;
 import android.telephony.SmsManager;
-
-import java.util.ArrayList;
 
 public class SMS {
     private SmsManager smsManager;

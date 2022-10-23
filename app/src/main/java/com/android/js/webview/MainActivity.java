@@ -1,11 +1,10 @@
 package com.android.js.webview;
 
+import android.os.Bundle;
 import android.os.Environment;
 import android.webkit.WebView;
-import android.os.Bundle;
 
 import com.android.js.other.PermissionRequest;
-
 
 public class MainActivity extends AndroidJSActivity {
 
@@ -19,9 +18,6 @@ public class MainActivity extends AndroidJSActivity {
         // check and request for required permission
         System.out.println(Environment.getRootDirectory());
         PermissionRequest.checkAndAskForPermissions(this, this);
-
-        // starting node thread;
-        start_node(this);
 
         // webview
 		this.myWebView = (WebView) findViewById(R.id.webview);

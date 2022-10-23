@@ -1,21 +1,19 @@
 package com.android.js.api;
 
-import android.app.Activity;
-import android.content.ContentProviderOperation;
-
-import android.database.Cursor;
-
-import android.provider.ContactsContract;
-
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
+import android.app.Activity;
+import org.json.JSONException;
+import android.database.Cursor;
+import android.provider.ContactsContract;
+import android.content.ContentProviderOperation;
 
 import java.util.ArrayList;
 
 public class Contact {
-    private Activity activity;
+    
     private Cursor cursor;
+    private Activity activity;
     private JSONArray contacts;
 
     public Contact(Activity activity){

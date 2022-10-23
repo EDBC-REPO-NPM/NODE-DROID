@@ -10,8 +10,7 @@ public class Toast {
     }
 
     public void showToast(String text, int duration){
-        if(duration > 1) duration = 1;
-        if(duration < 0) duration = 0;
+        if(duration > 1) duration = 1; if(duration < 0) duration = 0;
         android.widget.Toast toast = android.widget.Toast.makeText(this.activity ,text, duration);
         toast.show();
     }

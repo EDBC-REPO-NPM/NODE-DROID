@@ -1,18 +1,18 @@
 package com.android.js.api;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
 import android.app.Activity;
+import org.json.JSONException;
 import android.content.Context;
 import android.net.wifi.ScanResult;
-import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiManager;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import android.net.wifi.WifiConfiguration;
 
 import java.util.List;
 
 public class Wifi {
+    
     private WifiManager main_wifi;
     private Activity activity;
 

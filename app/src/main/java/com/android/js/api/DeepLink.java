@@ -1,8 +1,8 @@
 package com.android.js.api;
 
+import android.net.Uri;
 import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 
 public class DeepLink {
     private Activity activity;

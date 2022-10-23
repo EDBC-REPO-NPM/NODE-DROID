@@ -30,33 +30,10 @@ import java.io.File;
 
 public class AndroidJSActivity extends AppCompatActivity {
 
-    // Used to load the 'native-lib' library on application startup.
-    static {
-        System.loadLibrary("native-lib");
-        System.loadLibrary("node");
-    }
-
     public WebView myWebView ;
-    // public VideoView myVideoView ;
-
-    // override back button to webview back button
 	
 //	TODO: Input Override XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX//
    
-    /* 	TODO: Input Events
-    	I've created this code to get phone's buttons states like pressed or releaded in the webview
-    	this include Volume Up and Down, And Back
-    	
-    	** android.onVolumeBackPressed
-    	** android.onVolumeDownPressed
-    	** android.onVolumeUpPressed
-    	
-    	** android.onVolumeBackReleased
-    	** android.onVolumeDownReleased
-    	** android.onVolumeUpReleased
-    	
-    */
-        
     @Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 		if (keyCode == KeyEvent.KEYCODE_VOLUME_DOWN){
@@ -64,11 +41,9 @@ public class AndroidJSActivity extends AppCompatActivity {
 		} else if (keyCode == KeyEvent.KEYCODE_VOLUME_UP){
     		myWebView.evaluateJavascript( "try{ android.onVolumeUpPressed() } catch(e) { android.increaseVolume() }", null );		
 		} else if (keyCode == KeyEvent.KEYCODE_BACK){
-			if( this.myWebView.canGoBack() ){
-    			myWebView.evaluateJavascript( "try{ android.onVolumeBackPressed() } catch(e) { window.history.back(); }", null );
-    		} else { 
-    			myWebView.evaluateJavascript( "try{ android.onFinishApp() } catch(e) { android.closeApp(); }", null );
-    		}	
+			if( this.myWebView.canGoBack() )
+    			 myWebView.evaluateJavascript( "try{ android.onVolumeBackPressed() } catch(e) { window.history.back(); }", null );
+    		else myWebView.evaluateJavascript( "try{ android.onFinishApp() } catch(e) { android.closeApp(); }", null );
 		}	return true;
 	}
     
@@ -85,35 +60,8 @@ public class AndroidJSActivity extends AppCompatActivity {
 	
 //	TODO: Input Override XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX//
     
-    //We just want one instance of node running in the background.
-    public static boolean _startedNodeAlready=false;
-
-    public void start_node(final Activity activity){
-    
-        if( !_startedNodeAlready ) {
-            _startedNodeAlready=true;
-            new Thread(new Runnable() {
-                           
-                @Override
-                public void run() {                              
-                    String nodeDir=activity.getApplicationContext().getFilesDir().getAbsolutePath()+"/myapp";
-                    if (Utils.wasAPKUpdated(activity.getApplicationContext())) {
-                    
-                        File nodeDirReference=new File(nodeDir);
-                        if (nodeDirReference.exists()) {
-                            Utils.deleteFolderRecursively(new File(nodeDir));
-                        }
-                        
-                        Utils.copyAssetFolder(activity.getApplicationContext().getAssets(), "myapp", nodeDir);
-                        Utils.saveLastUpdateTime(activity.getApplicationContext());
-                    }	startNodeWithArguments(new String[]{"node", nodeDir+"/main.js" });
-                }
-            }).start();
-        }
-    }
-
     public void configureWebview(int iconId){
-        this.myWebView.addJavascriptInterface(new JavaWebviewBridge(this ,this.myWebView, iconId, "com.android.js.webview.MainActivity"), "android");
+        this.myWebView.addJavascriptInterface(new JavaWebviewBridge(this ,this.myWebView, iconId, "com.android.js.staticsdk.MainActivity"), "android");
 		
         this.myWebView.getSettings().setJavaScriptEnabled(true);
         this.myWebView.getSettings().setDomStorageEnabled(true);
@@ -155,8 +103,8 @@ public class AndroidJSActivity extends AppCompatActivity {
         this.myWebView.getSettings().setAllowFileAccessFromFileURLs(true);
         this.myWebView.getSettings().setAllowUniversalAccessFromFileURLs(true);
         this.myWebView.getSettings().setPluginState(WebSettings.PluginState.ON);
-
-        this.myWebView.loadUrl("file:///android_asset/myapp/views/index.html");
+		
+        this.myWebView.loadUrl("file:///android_asset/views/index.html");
         
         // entertain webview camera request
 
@@ -182,5 +130,4 @@ public class AndroidJSActivity extends AppCompatActivity {
         });
     }
     
-    public native Integer startNodeWithArguments(String[] arguments);
 }

@@ -1,17 +1,15 @@
 package com.android.js.api;
 
+import android.os.Build;
 import android.Manifest;
-import android.annotation.SuppressLint;
+import android.os.Handler;
 import android.app.Activity;
 import android.content.Context;
+import android.net.wifi.WifiManager;
+import android.annotation.SuppressLint;
 import android.content.pm.PackageManager;
 import android.net.wifi.WifiConfiguration;
-import android.net.wifi.WifiManager;
-import android.os.Build;
-import android.os.Handler;
-
 import android.support.v4.app.ActivityCompat;
-
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

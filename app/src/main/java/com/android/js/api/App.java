@@ -3,15 +3,15 @@ package com.android.js.api;
 import android.app.Activity;
 import android.os.Environment;
 
-import static android.os.Environment.DIRECTORY_ALARMS;
 import static android.os.Environment.DIRECTORY_DCIM;
-import static android.os.Environment.DIRECTORY_DOWNLOADS;
-import static android.os.Environment.DIRECTORY_MOVIES;
 import static android.os.Environment.DIRECTORY_MUSIC;
-import static android.os.Environment.DIRECTORY_NOTIFICATIONS;
+import static android.os.Environment.DIRECTORY_ALARMS;
+import static android.os.Environment.DIRECTORY_MOVIES;
 import static android.os.Environment.DIRECTORY_PICTURES;
 import static android.os.Environment.DIRECTORY_PODCASTS;
 import static android.os.Environment.DIRECTORY_RINGTONES;
+import static android.os.Environment.DIRECTORY_DOWNLOADS;
+import static android.os.Environment.DIRECTORY_NOTIFICATIONS;
 
 public class App {
     private Activity activity;
@@ -51,8 +51,6 @@ public class App {
             return this.activity.getFilesDir().getPath();
         } else if (name.equals("userData")) {
             return this.activity.getExternalFilesDir(null).getPath();
-        } else {
-            return "-1";
-        }
+        } else { return "-1"; }
     }
 }
